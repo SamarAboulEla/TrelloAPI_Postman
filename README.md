@@ -2,9 +2,12 @@
 
 This repository contains Trello API tests using Postman
 
-Trello Link:
+Trello API Link:
 https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
 
-Note:
-All requests need API Key & Token. 
+Notes:
+1. All requests need API Key & Token. 
 Add these as environment variables & use when running the Postman collection. 
+2. Example command to run collection using Newman:
+newman run <postman_collection> -e <trello_postman_environment>
+
